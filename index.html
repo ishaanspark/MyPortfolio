@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishaan's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e2e;
+            color: white;
+            text-align: center;
+            transition: background 0.5s;
+        }
+        header {
+            background: linear-gradient(90deg, #ff8c00, #e52e71);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #25253a;
+            padding: 30px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #ff8c00;
+        }
+        .section {
+            margin-top: 30px;
+            text-align: left;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(26, 19, 19, 0.199);
+            border-style: double;
+            border-color: aliceblue;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #e52e71;
+            color: white;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            cursor: pointer;
+            background: #ff8c00;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.5s;
+        }
+        button:hover {
+            background: #e52e71;
+        }
+    </style>
+</head>
+<body>
+    <header data-aos="fade-down">Ishaan's Portfolio</header>    
+    <div class="container">
+        <img src="profile.jpeg" alt="Profile Picture" class="profile-img" data-aos="zoom-in">
+        <h2>Hello, I'm Ishaan</h2>
+        <p>AV & Control System Programmer | Web Developer</p>
+        <p>Welcome to my portfolio. Here, you can explore my projects, skills, and experience.</p>
+        
+        <div class="section" data-aos="fade-right">
+            <h3>About Me</h3>
+            <p>I have done my Bachlores of technology in Computer Science engineering with specialization in AI&ML.
+                 I have also done various project during the college. 
+                 Apart from it i am skilled in Machine learning, Python and Front end development.
+                 I am also familiar with the CS fundamental concepts like DBMS,Computer Networks, OS, Data Structures and Algorithms.
+                 I am always ready to learn new things and collaborate with peoples. 
+            </p>
+        </div>
+        
+        <div class="section" data-aos="fade-left">
+            <h3>Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>SQL </li>
+                <li>C++</li>
+                <li>AMX & BSS Programming</li>
+                <li>Node-RED & Docker</li>
+                <li>React, HTML, CSS, JavaScript</li>
+                <li>Networking & Serial Communication</li>
+            </ul>
+        </div>
+        <div class="section" data-aos="fade-up">
+            <h3>Experience</h3>
+            <ul>
+            
+            <strong>AV and control system Programmer   (July 2024 - Present)</strong>  
+            <p>Spark Technologies pvt ltd  <br>
+            <li>Developed and deployed AMX control systems for [mention specific types of projects, e.g., conference rooms, auditoriums, smart homes].</li>
+            <li>Integrated various AV equipment (e.g., displays, projectors, audio systems) using [mention protocols and technologies, e.g., TCP/IP, RS-232, Crestron Fusion].</li>
+            <li>Collaborated with clients to understand their needs and deliver customized solutions.</li>
+            <li>Troubleshooted and resolved technical issues related to AV systems and control programming.</li>
+             
+        </ul>
+            
+
+        </div>
+        <div class="section" data-aos="fade-right">
+            <h3>Projects</h3>
+            <ul>
+                <li><strong>Driver Drowsiness Detection System</strong> The Driver Drowsiness Detection project employs Machine Learning (ML) to
+                    improve road safety by actively monitoring drivers and issuing alerts when
+                    signs of drowsiness or fatigue are detected. By harnessing ML algorithms and
+                    computer vision methods, this initiative enables instant analysis of facial and
+                    behavioral cues, allowing for the timely identification and mitigation of risks
+                    associated with driving while drowsy.
+                     <a href="#">View Project</a></li>
+                     <BR>
+                <li><strong>Text Summarization using NLTK</strong> Text summarization is an NLP technique that extracts text from a large
+                    amount of data. It helps in creating a shorter version of the large text
+                    available.
+                     <a href="#">View Project</a></li>
+            </ul>
+        </div>
+        
+        <div class="section" data-aos="fade-left">
+            <h3>Certifications</h3>
+            <ul>
+                <li>NetLinx Programming Level 1 & 2</li>
+                <li>MUSE Controller Training</li>
+                <li>AMX Product Portfolio Overview</li>
+            </ul>
+            <p>More on <a href="https://www.linkedin.com/in/ishaan-choudhary-1523191b3/" target="_blank">LinkedIn</a></p>
+        </div>
+        
+        <div class="section" data-aos="fade-up">
+            <h3>Contact Me</h3>
+            <p>Email: ishaanchoudary2007@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ishaan-choudhary-1523191b3/" target="_blank">linkedin.com/in/ishaan-choudhary</a></p>
+        </div>
+    </div>
+    <footer data-aos="fade-up">
+        &copy; 2025 Ishaan Choudhary. All rights reserved.
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+        function toggleMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
